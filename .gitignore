@@ -1,2 +1,6 @@
+.vscode/
 model_repository/*
 !model_repository/*.md
+
+**/Archive/
+**/build
