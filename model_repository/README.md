@@ -14,7 +14,7 @@
 
 ### SSD300
 
-`wget https://download.pytorch.org/models/ssd300_vgg16_coco-b556d3b4.pth https://download.pytorch.org/models/vgg16_features-amdegroot-88682ab5.pth`
+`wget https://download.pytorch.org/models/ssd300_vgg16_coco-b556d3b4.pth; wget https://download.pytorch.org/models/vgg16_features-amdegroot-88682ab5.pth -O ssd300_vgg16_features-amdegroot-88682ab5.pth`
 
 ### YOLOv8x
 

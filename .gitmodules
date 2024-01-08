@@ -4,3 +4,6 @@
 [submodule "coordinator/ext/json11"]
 	path = coordinator/ext/json11
 	url = https://github.com/dropbox/json11.git
+[submodule "profiler_extractor/torchview"]
+	path = profiler_extractor/torchview
+	url = https://github.com/FENP/torchview.git

@@ -79,7 +79,7 @@ class Model:
         
         elif self.model_name == 'ssd300':
             self.path = '../model_repository/ssd300_vgg16_coco-b556d3b4.pth'
-            self.backbonePath = "../model_repository/vgg16_features-amdegroot-88682ab5.pth"
+            self.backbonePath = "../model_repository/ssd300_vgg16_features-amdegroot-88682ab5.pth"
             model = models.detection.ssd300_vgg16(None, weights_backbone=None)
             model.eval()
             self.model = model
